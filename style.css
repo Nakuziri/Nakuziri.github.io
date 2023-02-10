@@ -10,6 +10,18 @@ h1 {
 nav > a {
 
     font-family: 'Cherry Swash', cursive;
-
-
+background-color: #e3caa5;
+text-decoration: none;
+color: black;
+padding: 12px 13px;
+}
+nav > a:hover {
+background-color: #fffbe9a3;
+}
+body { 
+    background: #ceab93
+}
+nav{ 
+    background-color: #e3caa5;
+    padding: 12px 13px;
 }
