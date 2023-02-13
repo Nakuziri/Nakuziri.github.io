@@ -1,6 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
 
+ @import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+
+p {
+    font-family: 'Caladea', serif;
+}
 
 h1 {
    
@@ -24,4 +29,7 @@ body {
 nav{ 
     background-color: #e3caa5;
     padding: 12px 13px;
+}
+.zest {
+    text-align: center;
 }
