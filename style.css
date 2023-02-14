@@ -1,10 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
 
- @import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caladea&display=swap');
 
-p {
-    font-family: 'Caladea', serif;
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+  p {
+    font-family: 'Hi Melody', cursive;
+    font-size: larger ;
 }
 
 h1 {
@@ -31,5 +36,11 @@ nav{
     padding: 12px 13px;
 }
 .zest {
+    text-align: center;
+}
+#Skillset {
+    font-size: xxx-large;
+    font-weight: 600;
+    font-family: 'Sacramento', cursive;
     text-align: center;
 }
