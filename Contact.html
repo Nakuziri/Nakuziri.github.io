@@ -15,5 +15,32 @@
 <body>
     <h1>Welcome to my contacts page</h1>
     <hr>
+    <form
+    action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
+     method="post"
+     >
+
+        <label>Name</label>
+        <br>
+        <input name="Name" placeholder="Insert Name Here">
+        <br>
+        <label>Email</label>
+        <br>
+        <input name="Email" placeholder="Insert Email Here">
+        <br>
+        <lable>Time for avalibility</lable>
+        <br>
+        <input type="time" name="Time">
+        <br>
+        <label>Additional information</label>
+        <br>
+        <textarea placeholder="Insert Details" name="Details"></textarea>
+        <br> 
+        <input type="checkbox" name="Terms"> <label>I agree to the terms & services</label>
+        <br>
+        <input type="submit"><input type="reset">
+        <input name="send-to" value="xcampos@brooklynsteamcenter.org" hidden>
+        
+     </form>
 </body>
 </html>
