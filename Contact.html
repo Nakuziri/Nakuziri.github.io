@@ -3,6 +3,7 @@
 <head>
 <nav>
    <a href="index.html"> Home </a>
+   <a href="Projects.html">Projects</a>
     <a href="Contact.html"> Contact Menu </a>
         
 </nav>
@@ -13,7 +14,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to my contacts page</h1>
+    <h1>Contact Page</h1>
+    <a href="https://github.com/Nakuziri">Github</a>
+    <a href="mailto:xcampos@brooklynsteamcenter.org">Email</a>
+    <a href="Tel:5512959266">Phone Number</a>
     <hr>
     <form
     action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
@@ -28,6 +32,10 @@
         <br>
         <input name="Email" placeholder="Insert Email Here">
         <br>
+        <label>Telephone Number</label>
+        <br>
+        <input type="tel" placeholder="+0(000)-000-0000" name="Phone Number">
+        <br>
         <lable>Time for avalibility</lable>
         <br>
         <input type="time" name="Time">
@@ -35,12 +43,18 @@
         <label>Additional information</label>
         <br>
         <textarea placeholder="Insert Details" name="Details"></textarea>
-        <br> 
-        <input type="checkbox" name="Terms"> <label>I agree to the terms & services</label>
+        <br>
+        <label>What is your preferred form of contact?</label>
+        <br>
+        <input type="radio" name="Preferred Contact" value="Linkedin"> <label>Linkedin</label>
+        <br>
+        <input type="radio" name="Preferred Contact" value="Phone Number"> <label>Phone Number </label>
+        <br>
+        <input type="radio" name="Preferred Contact" value="Email"> <lable>Email</lable>
         <br>
         <input type="submit"><input type="reset">
         <input name="send-to" value="xcampos@brooklynsteamcenter.org" hidden>
-        
+
      </form>
 </body>
 </html>

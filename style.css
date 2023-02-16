@@ -6,12 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
-
-  p {
-    font-family: 'Hi Melody', cursive;
-    font-size: larger ;
-}
-
 h1 {
    
     font-family: 'Cherry Swash', cursive;
@@ -35,7 +29,14 @@ nav{
     background-color: #e3caa5;
     padding: 12px 13px;
 }
-.zest {
+
+.Casual_Text_Class{
+    font-family: 'Hi Melody', cursive;
+    font-size: x-large;
+}
+
+
+.center {
     text-align: center;
 }
 #Skillset {
@@ -43,4 +44,17 @@ nav{
     font-weight: 600;
     font-family: 'Sacramento', cursive;
     text-align: center;
+}
+
+input, textarea {
+    background-color: #E3caa5;
+    border-radius: 10px;
+    padding: 8px;
+    border: #ad8b73;
+    border
+}
+
+input[type="reset"], input[type="submit"]{
+padding: 5px ;
+background-color: #fffbe1;
 }
