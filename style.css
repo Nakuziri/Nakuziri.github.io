@@ -50,11 +50,15 @@ input, textarea {
     background-color: #E3caa5;
     border-radius: 10px;
     padding: 8px;
-    border: #ad8b73;
-    border
+    border-color: #ad8b73;
+    border-width: 0px 0px 5px 0px;
 }
 
 input[type="reset"], input[type="submit"]{
-padding: 5px ;
+padding: 5px;
 background-color: #fffbe1;
+}
+
+ #Img_Fix{
+    text-decoration: none;
 }
