@@ -59,6 +59,7 @@ padding: 5px;
 background-color: #fffbe1;
 }
 
- #Img_Fix{
-    text-decoration: none;
+ #Img_FixGit{
+    font-size: larger;
+    color: black;
 }
