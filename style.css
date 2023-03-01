@@ -60,6 +60,18 @@ background-color: #fffbe1;
 }
 
  #Img_FixGit{
-    font-size: larger;
+    font-size: xxx-large;
     color: black;
+    text-decoration: none;
+}
+
+#Img_FixEmail{
+    font-size: xxx-large;
+    color: black;
+    text-decoration: none;
+}
+#Img_FixPhone{
+    font-size: xxx-large;
+    color: black;
+    text-decoration: none;
 }
