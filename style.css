@@ -23,7 +23,9 @@ nav > a:hover {
 background-color: #fffbe9a3;
 }
 body { 
-    background: #ceab93
+    background: #ceab93;
+    margin: auto;
+    text-align: center;
 }
 main {
     max-width: 500px;
@@ -32,6 +34,8 @@ main {
 nav{ 
     background-color: #e3caa5;
     padding: 12px 13px;
+    position : sticky;
+    top: 0;
 }
 
 .Casual_Text_Class{
