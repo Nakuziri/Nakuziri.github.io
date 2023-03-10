@@ -1,58 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<nav>
-   <a href="index.html"> Home </a>
-   <a href="Projects.html">Projects</a>
-    <a href="Contact.html"> Contact Menu </a>
-        
-</nav>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  
-        </body>
-    <h1>Contact Page</h1>
-    <a id="Img_FixGit" href="https://github.com/Nakuziri"><i class="fa fa-github-square"></i> </i></a>
-    
-    <a id="Img_FixEmail" href="mailto:xcampos@brooklynsteamcenter.org"><i class="fa fa-envelope"></i> </a>
-    <a id="Img_FixPhone" href="Tel:5512959266"><i class="fa fa-phone"></i></a>
-    <hr>
-    <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
-     method="post">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-        <label>Name</label>
-        <br>
-        <input name="Name" placeholder="Insert Name Here">
-        <br>
-        <label>Email</label>
-        <br>
-        <input name="Email" placeholder="Insert Email Here">
-        <br>
-        <label>Telephone Number</label>
-        <br>
-        <input type="tel" placeholder="+0(000)-000-0000" name="Phone Number">
-        <br>
-        <lable>Time for avalibility</lable>
-        <br>
-        <input type="time" name="Time">
-        <br>
-        <label>Additional information</label>
-        <br>
-        <textarea placeholder="Insert Details" name="Details"></textarea>
-        <br>
-        <label>What is your preferred form of contact?</label>
-        <br>
-        <input type="radio" name="Preferred Contact" value="Phone Number"><label>Phone Number </label>
-        <br>
-        <input type="radio" name="Preferred Contact" value="Email"> <lable>Email</lable>
-        <br>
-        <input type="submit"><input type="reset">
-        <input name="send-to" value="xcampos@brooklynsteamcenter.org" hidden>
-     </form>
-</body>
+    <body>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Projects.html">Projects</a>
+            <a href="Contact.html">Contact Menu</a>
+        </nav>
+
+        <h1>Contact Page</h1>
+        <a id="Img_FixGit" href="https://github.com/Nakuziri"><i class="fa fa-github-square"></i></a>
+        <a id="Img_FixEmail" href=""><i class="fa fa-envelope"></i></a>
+        <a id="Img_FixPhone" href="Tel:5512959266"><i class="fa fa-phone"></i></a>
+        <hr>
+
+        <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
+            <label>Name</label>
+            <br>
+            <input name="Name" placeholder="Insert Name Here">
+            <br>
+            <label>Email</label>
+            <br>
+            <input name="Email" placeholder="Insert Email Here">
+            <br>
+            <label>Telephone Number</label>
+            <br>
+            <input type="tel" placeholder="+0(000)-000-0000" name="Phone Number">
+            <br>
+            <label>Time for avalibility</label>
+            <br>
+            <input type="time" name="Time">
+            <br>
+            <label>Additional information</label>
+            <br>
+            <textarea placeholder="Insert Details" name="Details"></textarea>
+            <br>
+            <label>What is your preferred form of contact?</label>
+            <br>
+            <input type="radio" name="Preferred Contact" value="Phone Number"><label>Phone Number </label>
+            <br>
+            <input type="radio" name="Preferred Contact" value="Email"> 
+            <label>Email</label>
+            <br>
+            <input type="submit"><input type="reset">
+            <input name="send-to" value="xcampos@brooklynsteamcenter.org" hidden>
+        </form>
+    </body>
+</html>
