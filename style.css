@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 h1 {
    
     font-family: 'Cherry Swash', cursive;
@@ -43,9 +47,16 @@ nav{
     font-size: x-large;
 }
 
-
+.CasualSub{
+    font-family: 'Fredoka One', cursive;
+    font-size: x-large;
+    font-weight: 50;
+}
 .center {
     text-align: center;
+}
+#ProjectsHead {
+text-decoration: underline;
 }
 #Skillset {
     font-size: xxx-large;
