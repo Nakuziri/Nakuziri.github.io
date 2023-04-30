@@ -23,6 +23,7 @@ text-decoration: none ;
 color: black;
 padding: 12px 13px;
 }
+
 nav > a:hover {
 background-color: #fffbe9a3;
 }
@@ -30,11 +31,9 @@ body {
     background: #ceab93;
     margin: auto;
     text-align: center;
+    max-width: 800px;
 }
-main {
-    max-width: 600px;
-    margin: auto;
-  }
+
 nav{ 
     background-color: #e3caa5;
     padding: 12px 13px;
@@ -44,7 +43,7 @@ nav{
 
 .Casual_Text_Class{
     font-family: 'Hi Melody', cursive;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .CasualSub{
