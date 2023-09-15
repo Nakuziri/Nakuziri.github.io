@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
 h1 {
    
     font-family: 'Cherry Swash', cursive;
@@ -58,7 +60,7 @@ nav{
 #ProjectsHead {
 text-decoration: underline;
 }
-#Skillset {
+.Skillset {
     font-size: xxx-large;
     font-weight: 600;
     font-family: 'Sacramento', cursive;
